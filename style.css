@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px;
+  background-color: rgba(1, 1, 1, 0.8);
+  border-bottom: 0.4px solid white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  font-family: poppins;
+}
+
+.logo span {
+  color: var(--primary);
+}
+
+.list a {
+  color: white;
+  display: inline-block;
+  margin: 0;
+  padding: 5px;
+  font-size: 15px;
+  font-family: poppins;
+  text-decoration: none;
+}
+
+.list a:hover {
+  color: blue;
+}
+
+.list a::after {
+  content: "";
+  display: block;
+  padding-bottom: 2.5px;
+  border-bottom: 1px solid blue;
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.list a:hover::after {
+  transform: scaleX(0.8);
+}
+
+.ikon a {
+  color: white;
+  margin: 0 5px;
+}
+
+.ikon a:hover {
+  color: blue;
+}
+
+body {
+  height: 100%;
+}
+
+/* pancasila */
+
+.pancasila h1 {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 50px;
+}
+/* 
+satu */
+
+.pancasila .satu p {
+  font-size: 40px;
+  margin: 20px;
+}
+
+.pancasila .satu {
+  display: flex;
+  font-style: italic;
+  padding-top: 100px;
+  margin-left: 20rem;
+}
+
+.pancasila .satu img {
+  width: 180px;
+  height: 180px;
+  border: 1px solid black;
+}
+
+/* dua */
+
+.pancasila .dua p {
+  font-size: 40px;
+  margin: 20px;
+}
+
+.pancasila .dua {
+  display: flex;
+  font-style: italic;
+
+  padding-top: 80px;
+  margin-right: 20rem;
+  float: right;
+}
+
+.pancasila .dua img {
+  width: 180px;
+  height: 180px;
+  border: 1px solid black;
+}
+
+/* tiga */
+
+.pancasila .tiga p {
+  font-size: 40px;
+  margin: 20px;
+}
+
+.pancasila .tiga {
+  display: flex;
+  font-style: italic;
+  margin-left: 20rem;
+  padding-top: 300px;
+}
+
+.pancasila .tiga img {
+  width: 180px;
+  height: 180px;
+  border: 1px solid black;
+}
+
+/* empat */
+
+.pancasila .empat p {
+  font-size: 40px;
+  text-align: right;
+  margin: 20px;
+  margin-left: 400px;
+}
+
+.pancasila .empat {
+  display: flex;
+  font-style: italic;
+  padding-top: 80px;
+  margin-right: 20rem;
+  float: right;
+}
+
+.pancasila .empat img {
+  width: 180px;
+  height: 180px;
+  border: 1px solid black;
+}
+
+/* lima */
+
+.pancasila .lima p {
+  font-size: 40px;
+  margin: 20px;
+}
+
+.pancasila .lima {
+  display: flex;
+  font-style: italic;
+  padding-top: 80px;
+  margin-left: 20rem;
+}
+
+.pancasila .lima img {
+  width: 180px;
+  height: 180px;
+  border: 1px solid black;
+}
+
+/* resep */
+
+.nasgor {
+  height: 100%;
+  min-height: 100vh;
+  background-image: url(4c0d3359-6625-4d3b-b5e4-710bdd850186_gobiz-dashboard-image_1730106768734.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.resep main {
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 150px;
+  /* padding-top: 150px; */
+}
+
+.resep main h1 {
+  padding-top: 30px;
+  font-size: 150px;
+  font-family: poppins;
+  color: white;
+  -webkit-text-stroke: 2px black;
+  text-shadow: 3px 4px #2d3092;
+}
+
+.resep main p {
+  font-size: 3rem;
+  color: white;
+}
+
+.resep main a {
+  color: white;
+}
+
+.bahan {
+  padding-top: 100px;
+  padding-left: 40px;
+}
+
+.bahan h1 {
+  font-size: 55px;
+  font-family: poppins;
+  font-style: italic;
+}
+
+.bahan ol li {
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.bawah {
+  display: flex;
+  height: 100vh;
+}
+
+.cara {
+  padding-top: 100px;
+  padding-left: 80px;
+}
+
+.cara h1 {
+  font-size: 55px;
+  font-family: poppins;
+  font-style: italic;
+}
+
+.cara ol li {
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.tabel {
+  padding-top: 50px;
+  font-size: 55px;
+}
+
+.kk {
+  text-align: center;
+  justify-content: center;
+}
+
+.kk table {
+  margin-left: 15px;
+  font-size: 32px;
+}
+
+.nama {
+  padding-top: 60px;
+}
